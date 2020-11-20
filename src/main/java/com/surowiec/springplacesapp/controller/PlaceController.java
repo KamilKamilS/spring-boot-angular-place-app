@@ -1,7 +1,6 @@
 package com.surowiec.springplacesapp.controller;
 
 import com.surowiec.springplacesapp.service.GooglePlaceService;
-import com.surowiec.springplacesapp.webclient.place.PlaceClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,7 +16,7 @@ public class PlaceController {
 
     @GetMapping("/place")
     public String getPlace() {
-        return placeService.getPlace("Warszawa stadion narodowy");
+        return placeService.getPlace("Warszawa stadion");
     }
 
 
