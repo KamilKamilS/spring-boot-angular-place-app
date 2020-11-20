@@ -1,4 +1,4 @@
-package com.surowiec.springplacesapp.webclient.place.dto;
+package com.surowiec.springplacesapp.webclient.googleplace.dto;
 
 public class GooglePlaceGeometryDto {
 

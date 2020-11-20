@@ -1,6 +1,6 @@
-package com.surowiec.springplacesapp.webclient.place;
+package com.surowiec.springplacesapp.webclient.googleplace;
 
-import com.surowiec.springplacesapp.webclient.place.dto.GooglePlaceDto;
+import com.surowiec.springplacesapp.webclient.googleplace.dto.GooglePlaceDto;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
 

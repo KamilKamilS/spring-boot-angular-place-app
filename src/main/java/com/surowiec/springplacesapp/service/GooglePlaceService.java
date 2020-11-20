@@ -1,6 +1,6 @@
 package com.surowiec.springplacesapp.service;
 
-import com.surowiec.springplacesapp.webclient.place.PlaceClient;
+import com.surowiec.springplacesapp.webclient.googleplace.PlaceClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
